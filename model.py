@@ -13,6 +13,10 @@ class Article:
     level:int
     question:str
 
+class Reading:
+    def __init__(self, username, article_id):
+        self.username = username
+        self.article_id = article_id
 
 class NewWord:
     def __init__(self, username, word='', date='yyyy-mm-dd'):

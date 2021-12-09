@@ -27,7 +27,7 @@ def test_read_article_level4(get_session):
     lst = [r[0] for r in result]
 
     assert article_id == 2
-    # assert lst[0] == 2
+    assert lst[0] == 2
 
 
 
@@ -49,7 +49,7 @@ def test_read_article_level5(get_session):
 
     lst = [r[0] for r in result]
     assert article_id == 1
-    # assert lst[0] == 1
+    assert lst[0] == 1
 
 
 

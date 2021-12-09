@@ -53,3 +53,4 @@ def start_mappers():
     mapper(model.User, users)
     mapper(model.NewWord, newwords)
     mapper(model.Article, articles)
+    mapper(model.Reading, readings)
